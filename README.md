@@ -30,3 +30,7 @@ Having a SetValues inside the loopblock with the following formula:
 LISTSIZE(FILTER(LIST(%LocationStores%),'LocationStore == "' + %DRTransform_ListToCounts:unicList:LocationStore% + '"'))
 
 This formula will count the size of the LocationStores initial list filtered by the LocationStore that we are iterating; this way we could get the LocationCount of the eatch iteration over the unic list, and inside the loopblock it displays like this:
+
+## Import
+
+To use on your org, is just import the json file "Total_Count_Depending_on_Value.json"
